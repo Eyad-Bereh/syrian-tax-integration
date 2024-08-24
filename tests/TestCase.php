@@ -2,9 +2,9 @@
 
 namespace EyadBereh\SyrianTaxIntegration\Tests;
 
+use EyadBereh\SyrianTaxIntegration\SyrianTaxIntegrationServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use EyadBereh\SyrianTaxIntegration\SyrianTaxIntegrationServiceProvider;
 
 class TestCase extends Orchestra
 {
