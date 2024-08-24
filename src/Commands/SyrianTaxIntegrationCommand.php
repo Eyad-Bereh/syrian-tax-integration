@@ -1,19 +1,19 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace EyadBereh\SyrianTaxIntegration\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class SyrianTaxIntegrationCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'syrian-tax-integration';
 
     public $description = 'My command';
 
     public function handle(): int
     {
         $this->comment('All done');
-
+    
         return self::SUCCESS;
     }
 }

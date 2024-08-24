@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace EyadBereh\SyrianTaxIntegration;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use EyadBereh\SyrianTaxIntegration\Commands\SyrianTaxIntegrationCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class SyrianTaxIntegrationServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('syrian-tax-integration')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_syrian_tax_integration_table')
+            ->hasCommand(SyrianTaxIntegrationCommand::class);
     }
 }
