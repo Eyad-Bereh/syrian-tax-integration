@@ -11,7 +11,5 @@ class SendInvoiceResponseData extends Data
         public readonly string $datetime,
         public readonly string $random_number,
         public readonly string $response_code,
-    )
-    {
-    }
+    ) {}
 }

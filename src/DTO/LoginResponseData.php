@@ -10,12 +10,12 @@ class LoginResponseData extends Data
 {
     #[Computed]
     public readonly string $token;
+
     public function __construct(
         public readonly string $authorization_header,
         public readonly string $facility_name,
         public readonly int $response_code,
-    )
-    {
-        $this->token = Str::of($this->authorization_header)->after("Bearer")->trim();
+    ) {
+        $this->token = Str::of($this->authorization_header)->after('Bearer')->trim();
     }
 }

@@ -8,6 +8,6 @@ return [
     'queue' => [
         'enabled' => true,
         'connection' => env('QUEUE_CONNECTION'),
-        'name' => 'taxes'
-    ]
+        'name' => 'taxes',
+    ],
 ];
