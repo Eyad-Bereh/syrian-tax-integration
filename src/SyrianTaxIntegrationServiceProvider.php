@@ -2,9 +2,9 @@
 
 namespace EyadBereh\SyrianTaxIntegration;
 
+use EyadBereh\SyrianTaxIntegration\Commands\SyrianTaxIntegrationCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use EyadBereh\SyrianTaxIntegration\Commands\SyrianTaxIntegrationCommand;
 
 class SyrianTaxIntegrationServiceProvider extends PackageServiceProvider
 {
